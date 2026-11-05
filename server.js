@@ -7,10 +7,6 @@ const app = express();
 // 3. Le decimos a la app que entienda los datos en formato JSON
 app.use(express.json());
 
-// ==============================================================
-// Base de datos simulada + Patrón Factory Method
-// ==============================================================
-
 let baseDeDatos = []; // Base de datos sencilla en memoria
 
 class FabricaDePersonas {
